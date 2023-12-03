@@ -1,0 +1,207 @@
+[
+    {
+        "firstName": "John",
+        "lastName": "Doe",
+        "age": 28,
+        "skills": [
+            "run",
+            "jump",
+            "swim",
+            "dance"
+        ],
+        "gender": "male",
+        "married": true,
+        "children": [
+            {
+                "firstName": "Alice",
+                "lastName": "Doe",
+                "age": 5,
+                "skills": [
+                    "swim",
+                    "dance"
+                ],
+                "gender": "female",
+                "married": true,
+                "children": []
+            },
+            {
+                "firstName": "Bob",
+                "lastName": "Doe",
+                "age": 3,
+                "skills": [
+                    "run"
+                ],
+                "gender": "male",
+                "married": false,
+                "children": []
+            }
+        ]
+    },
+    {
+        "firstName": "Emily",
+        "lastName": "Smith",
+        "age": 35,
+        "skills": [
+            "dance",
+            "jump"
+        ],
+        "gender": "female",
+        "married": true,
+        "children": [
+            {
+                "firstName": "Sophia",
+                "lastName": "Smith",
+                "age": 8,
+                "skills": [
+                    "swim"
+                ],
+                "gender": "female",
+                "married": false,
+                "children": []
+            }
+        ]
+    },
+    {
+        "firstName": "Alex",
+        "lastName": "Johnson",
+        "age": 40,
+        "skills": [
+            "swim",
+            "jump"
+        ],
+        "gender": "male",
+        "married": true,
+        "children": [
+            {
+                "firstName": "Lily",
+                "lastName": "Johnson",
+                "age": 12,
+                "skills": [
+                    "dance"
+                ],
+                "gender": "female",
+                "married": false,
+                "children": []
+            },
+            {
+                "firstName": "Max",
+                "lastName": "Johnson",
+                "age": 10,
+                "skills": [
+                    "run"
+                ],
+                "gender": "male",
+                "married": false,
+                "children": []
+            }
+        ]
+    },
+    {
+        "firstName": "Sophie",
+        "lastName": "Brown",
+        "age": 25,
+        "skills": [
+            "run",
+            "swim"
+        ],
+        "gender": "female",
+        "married": false,
+        "children": []
+    },
+    {
+        "firstName": "Michael",
+        "lastName": "Miller",
+        "age": 30,
+        "skills": [
+            "jump",
+            "dance"
+        ],
+        "gender": "male",
+        "married": true,
+        "children": [
+            {
+                "firstName": "Olivia",
+                "lastName": "Miller",
+                "age": 6,
+                "skills": [
+                    "swim",
+                    "jump"
+                ],
+                "gender": "female",
+                "married": false,
+                "children": []
+            }
+        ]
+    },
+    {
+        "firstName": "Ethan",
+        "lastName": "Garcia",
+        "age": 32,
+        "skills": [
+            "dance",
+            "jump"
+        ],
+        "gender": "male",
+        "married": true,
+        "children": [
+            {
+                "firstName": "Ava",
+                "lastName": "Garcia",
+                "age": 4,
+                "skills": [
+                    "run"
+                ],
+                "gender": "female",
+                "married": false,
+                "children": []
+            },
+            {
+                "firstName": "Noah",
+                "lastName": "Garcia",
+                "age": 2,
+                "skills": [
+                    "swim"
+                ],
+                "gender": "male",
+                "married": false,
+                "children": []
+            }
+        ]
+    },
+    {
+        "firstName": "Emma",
+        "lastName": "Taylor",
+        "age": 29,
+        "skills": [
+            "jump",
+            "dance"
+        ],
+        "gender": "female",
+        "married": true,
+        "children": [
+            {
+                "firstName": "William",
+                "lastName": "Taylor",
+                "age": 7,
+                "skills": [
+                    "run",
+                    "jump"
+                ],
+                "gender": "male",
+                "married": false,
+                "children": []
+            },
+            {
+                "firstName": "Isabella",
+                "lastName": "Taylor",
+                "age": 5,
+                "skills": [
+                    "dance"
+                ],
+                "gender": "female",
+                "married": false,
+                "children": []
+            }
+        ]
+    }
+]
