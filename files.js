@@ -26,6 +26,8 @@ function readFiles(fileList, index) {
       console.error(`Si è verificato un errore nella lettura di ${fileList[index]}:`, err);
       return;
     }
+
+    return console.log(data)
     
     // Aggiungi il contenuto del file corrente alla stringa concatenata
     concatenatedContent += data;

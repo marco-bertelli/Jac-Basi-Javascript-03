@@ -11,9 +11,9 @@ function score(dice) {
       const remainder = count.length % 3;
   
       if (val === 1) {
-        score += tripletCount * 1000 + remainder * 100;
+        score += (tripletCount * 1000) + (remainder * 100);
       } else if (val === 5) {
-        score += tripletCount * 500 + remainder * 50;
+        score += (tripletCount * 500) + (remainder * 50);
       } else {
         if (tripletCount > 0) {
           score += val * 100 * tripletCount;

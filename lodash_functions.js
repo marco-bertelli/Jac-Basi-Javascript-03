@@ -1,6 +1,7 @@
+const _ = require("lodash");
 const samples = require("./data/samples.json");
 
-const _ = require("lodash");
+import { samples } from "./data/samples.json";
 
 function ageUnder30(data) {
     return _.filter(data, (item) => item.age < 30);
@@ -25,7 +26,15 @@ function peopleWithMarriedChildren(data) {
 }
 
 function getPeopleAges(data) {
-    return _.map(data, (item) => item.age);
+    return _.reduce(data, (result, item) => {
+        result.push(item.age);
+
+        _.forEach(item.children, (child) => {
+            result.push(child.age);
+        });
+    
+        return result;
+    }, []);
 }
 
 function removeChildrenFromSamples(data) {
@@ -84,7 +93,7 @@ console.log("People without children: " + JSON.stringify(removeChildrenFromSampl
 console.log("Children: " + JSON.stringify(getChildrenArray(samples)));
 console.log("Population: " + getPopulationArray(samples).length);
 
-console.log("Executing at most once in 5 seconds:");
+console.log("Executing at most once in 5 times:");
 executeAtMostOnceInX();
 executeAtMostOnceInX();
 executeAtMostOnceInX();
